@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.divies {
+	width: 40%;
+	height: 100px;
+	border:5px solid black;
+	background-color: #CFF8FF;
+	margin: 10px;
+}
+
+
+#one {
+	/*I figured text-align would center this div but all it
+	did was center the text. */
+}
+
+#two, #three {
+	display: inline-block;	
+}
+
+#four {
+	
+}
+
+#small {
+	width: 75px;
+	height: 50px;
+	background-color: bisque;
+	position: relative;
+	/*I tried positioning this div to the bottom left of
+	its parent element*/
+}
+
+#five {
+	width: 300px;
+	height: 300px;
+	background-color: mediumpurple;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
